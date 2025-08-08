@@ -1,0 +1,4 @@
+- id: echo
+  name: echo
+  language: script
+  entry: ./echo.sh

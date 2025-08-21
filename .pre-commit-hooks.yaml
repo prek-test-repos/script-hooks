@@ -2,3 +2,8 @@
   name: echo
   language: script
   entry: ./echo.sh
+- id: hello
+  name: hello
+  language: script
+  entry: ./hello.sh
+

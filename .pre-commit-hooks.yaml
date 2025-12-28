@@ -2,6 +2,10 @@
   name: echo
   language: script
   entry: ./echo.sh
+  env:
+    WORD1: "A"
+    WORD2: "B"
+    WORD3: "C"
 - id: hello
   name: hello
   language: script

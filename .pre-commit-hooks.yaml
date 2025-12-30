@@ -2,8 +2,9 @@
   name: echo
   language: script
   entry: ./echo.sh
-- id: hello
-  name: hello
+- id: echo-env
+  name: echo-env
   language: script
-  entry: ./hello.sh
-
+  entry: ./echo-env.sh
+  env:
+    VAR1: "world"
